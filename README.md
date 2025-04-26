@@ -78,7 +78,7 @@ The `example_files/` folder contains:
 - Example experiment configs (`.yaml`) - Shows the format of how yamls files are run with parameters for inference, allows for inference via CLI.
 - Example import files (.csv and .xlsx) - Shows the format of importing via CSV or XLSV (Excel file). Header row will be automatically removed if exists. 
 
-##Outputs
+## Outputs
 The tool automatically generates outputs during usage:
 
 - Saved Boolean Networks are stored in the outputs/saved_networks/ folder.
@@ -108,8 +108,8 @@ MIT License – see `LICENSE` file for full details.
 ## Author
 
 **[James Dowdell]**  
-BSc Computer Science Final Year Student
-Newcastle University
-Year: 2025
-The tool was developed as part of my Undergraduate dissertation project titled:
+- BSc Computer Science Final Year Student
+- Newcastle University
+- Year: 2025
+- The tool was developed as part of my Undergraduate dissertation project titled:
 > Investigating Metaheuristic Approaches to Evolve Boolean Networks.
