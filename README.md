@@ -40,8 +40,8 @@ Python 3.10+ is recommended. This project was developed in Python 3.12.6, but ha
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/jdowdell2/BNForge.git
-cd BNForge
+git clone https://github.com/jdowdell2/BN-Forge.git
+cd BN-Forge
 ```
 
 2. Create a virtual environment:
