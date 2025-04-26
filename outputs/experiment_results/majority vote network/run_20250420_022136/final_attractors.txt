@@ -1,0 +1,5 @@
+Attractor 1: 0000
+Attractor 2: 0011 -> 1100
+Attractor 3: 0101 -> 1010
+Attractor 4: 0110 -> 1001
+Attractor 5: 1111

@@ -1,0 +1,17 @@
+metaheuristic: genetic_algorithm
+entity_count: 5
+mutation_function: flip_bit
+cost_function: hamming
+
+pop_size: 50
+max_gens: 500
+crossover_rate: 0.7
+mutation_rate: 0.05
+
+load_network_path: "saved_networks/five_entity_test_network.json"
+
+output_dir: "results"
+
+# Additional configuration options
+weight_missing: 1.0  # Weight for missing attractors in the cost function
+weight_extra: 1.0  # Weight for extra attractors in the cost function

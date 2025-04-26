@@ -1,0 +1,4 @@
+A': desired = ( B AND C ) OR ( B AND D ) OR ( C AND D ) → inferred = ( B AND C ) OR ( B AND D ) OR ( C AND D )
+B': desired = ( A AND C ) OR ( A AND D ) OR ( C AND D ) → inferred = ( A AND C ) OR ( A AND D ) OR ( C AND D )
+C': desired = ( A AND B ) OR ( A AND D ) OR ( B AND D ) → inferred = ( A AND B ) OR ( A AND D ) OR ( B AND D )
+D': desired = ( A AND B ) OR ( A AND C ) OR ( B AND C ) → inferred = ( A AND B ) OR ( A AND C ) OR ( B AND C )

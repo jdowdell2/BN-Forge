@@ -1,0 +1,21 @@
+// 4-Entity Boolean Network Wiring Diagram
+digraph {
+	rankdir=LR
+	fontname="Segoe UI" fontsize=20 label="Wiring Diagram" labelloc=t
+	A
+	B
+	C
+	D
+	B -> A
+	C -> A
+	D -> A
+	C -> B
+	A -> B
+	D -> B
+	B -> C
+	A -> C
+	D -> C
+	B -> D
+	C -> D
+	A -> D
+}

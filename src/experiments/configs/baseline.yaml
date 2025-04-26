@@ -1,0 +1,11 @@
+# experiments/configs/baseline.yaml
+experiment_name: baseline_trace_match
+cost_function: hamming
+mutation_function: flip_bit
+temperature:
+  initial: 5.0
+  cooling_rate: 0.995
+max_iterations: 100000
+
+entity_count: 3
+# load_network_path: saved_networks/example_network.json

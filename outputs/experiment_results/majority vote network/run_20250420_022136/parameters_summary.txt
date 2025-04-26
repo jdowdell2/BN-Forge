@@ -1,0 +1,20 @@
+{
+  "cost_function": "hamming",
+  "crossover_rate": 0.7,
+  "live_update_interval": 1,
+  "load_network_path": "C:\\Users\\JAMESG~1\\AppData\\Local\\Temp\\tmp9uvfzxgj.json",
+  "log_interval": 1,
+  "log_results": true,
+  "max_gens": 789,
+  "metaheuristic": "genetic_algorithm",
+  "mutation_function": "flip_bit",
+  "mutation_rate": 0.05,
+  "network_name": "majority vote network",
+  "pop_size": 345,
+  "rules": {
+    "N1": "( N2 AND N3 ) OR ( N2 AND N4 ) OR ( N3 AND N4 )",
+    "N2": "( N1 AND N3 ) OR ( N1 AND N4 ) OR ( N3 AND N4 )",
+    "N3": "( N1 AND N2 ) OR ( N1 AND N4 ) OR ( N2 AND N4 )",
+    "N4": "( N1 AND N2 ) OR ( N1 AND N3 ) OR ( N2 AND N3 )"
+  }
+}

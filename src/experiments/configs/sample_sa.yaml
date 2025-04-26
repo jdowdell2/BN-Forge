@@ -1,0 +1,11 @@
+metaheuristic: simulated_annealing
+entity_count: 3
+mutation_function: flip_bit
+cost_function: hamming
+max_iterations: 10000
+
+temperature:
+  initial: 5.0
+  cooling_rate: 0.995
+
+load_network_path: "saved_networks/my_test_network.json"
